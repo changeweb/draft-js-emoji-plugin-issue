@@ -11,7 +11,7 @@ const plugins = [
   emojiPlugin,
 ];
 
-export default class GoroEditor extends Component {
+export default class MyEditor extends Component {
   constructor(props) {
     super(props);
     this.state = {
