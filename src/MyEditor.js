@@ -31,6 +31,7 @@ export default class MyEditor extends Component {
         <Editor
           editorState={this.state.editorState}
           onChange={this.onChange}
+          placeholder="Write something..."
           plugins={plugins}
           ref="editor"
         />
